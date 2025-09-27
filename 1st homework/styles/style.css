@@ -1,0 +1,15 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20;
+}
+.img {
+  float: right;
+  margin: 10px 15px 10px 15px;
+}
+.bold, i{
+  font-weight:bolder;
+  color:chocolate;
+}
+a {
+  color: brown;
+}

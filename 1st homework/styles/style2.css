@@ -1,0 +1,31 @@
+body {
+    font-size:20pt;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-list {
+  counter-reset: section;
+  list-style: none; 
+  padding-left: 0;
+}
+
+.main-list > li {
+  counter-increment: section; 
+}
+
+.main-list > li::before {
+  content: counter(section) ". ";
+}
+
+.sub-list {
+  counter-reset: sub-section;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.sub-list > li {
+  counter-increment: sub-section; 
+}
+
+.sub-list > li::before {
+  content: counter(section) "." counter(sub-section) " ";
+}
