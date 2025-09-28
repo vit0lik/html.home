@@ -39,3 +39,22 @@ header {
     grid-row: span 2;
 }
 
+footer {
+    background-color: rgb(129, 129, 129);
+    padding: 20px; 
+}
+.container {
+    margin: auto;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+.container li,a {
+    list-style: none;    
+    margin-bottom: 3px;
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
